@@ -1,0 +1,21 @@
+{
+  "name": "property_management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss properties/assets/css/tailwind.css -o static/css/tailwind.css",
+    "watch:css": "postcss properties/assets/css/tailwind.css -o static/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "postcss-cli": "^11.0.0"
+  }
+}
